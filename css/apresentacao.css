@@ -65,6 +65,7 @@ body{
 
 }
 .apresentacao__sobre__texto p{
+    text-align: justify;
     width: 50vw;
     font-size: 16px;
     margin: 16px 0px 16px 0px;
@@ -97,6 +98,19 @@ body{
     }
     
 }
+@media only screen and (min-width: 500px) and (max-width:700px){
+    .apresentacao__link li{
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0px 3px;
+        
+    }
+    .apresentacao__link img{
+        margin: 0px;
+        width: 14px;
+        height: 14px;
+    }
+} 
 
 
 
