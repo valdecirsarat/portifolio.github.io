@@ -1,0 +1,133 @@
+
+.section__experiencia__profissional{
+    display: flex;
+    width: 70vw;   
+    flex-direction: column;   
+    margin: 32px 0px 32px 0px; 
+}
+.experiencia__titulo{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.experiencia__projeto{
+    display: flex;    
+    margin-bottom: 10px;
+    flex-direction:row-reverse;
+    align-items: center;
+    
+}
+.experiencia__projeto__img{
+   
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+.experiencia__projeto__img img{
+    width: 710px;
+    height: 426px;
+}
+
+.experiencia__projeto__opcoes{
+    display: flex;
+    margin: 0px 16px 0px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 364px;
+    height: 150px;
+}
+
+.experiencia__projeto:nth-child(2n)  .experiencia__projeto__img{
+    order: 1;
+}
+.experiencia__projeto:nth-child(2n)  .experiencia__projeto__opcoes{
+    margin: 0px 0px 0px 16px;
+}
+.experiencia__projeto__opcoes__texto_titulo {
+    font-size: 22px;
+    font-weight: 700;
+}
+.experiencia__projeto__opcoes__texto_descricao{
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn_repositorio{
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    background-color: #EAF2FD;
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 400;
+    height: 51px;
+    width: 116px;   
+}
+.btn_verdemo{
+    background-color: #2A7AE4;
+    color: white;
+    width: 105px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .section__experiencia__profissional{
+        width: 90vw;
+    }
+    .experiencia__titulo{
+        font-size: 22px;
+    }
+    .experiencia__projeto{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .experiencia__projeto:nth-child(n+1)  .experiencia__projeto__opcoes{
+        margin-left: 0px;
+    }
+    
+    .experiencia__projeto:nth-child(n+2)  .experiencia__projeto__img{
+        order: 1;
+    }
+    .experiencia__projeto__img{
+        width: 704px;
+       
+    }
+    .experiencia__projeto__img img{
+        width: 704px;
+        height: 320px;
+    }
+    .experiencia__projeto__opcoes__texto_titulo{
+        font-size: 16px;
+    }
+    .experiencia__projeto__opcoes__texto_descricao{
+        font-size: 14px;
+    }
+    .btn_repositorio{
+        font-size: 14px;
+        width: 108px;
+        height: 40px;
+
+    }
+    .btn_verdemo{
+        font-size: 14px;
+        width: 96px;
+        height: 40px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 375px){
+    .experiencia__projeto__img{
+        width: auto;
+    }
+  .experiencia__projeto__img img{
+    width: auto;
+    height: 144px;
+    margin: 0px;
+  }
+}

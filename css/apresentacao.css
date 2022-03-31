@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+body{ 
+    font-family: 'Raleway', sans-serif;   
+    background-color: #EAF2FD;
+    display: flex;
+
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: #464646;
+}
+
+.section__apresentacao{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.apresentacao__titulo,  p{
+    font-weight: 700;
+    font-size: 52px
+}
+.apresentacao{
+    display: flex;
+    justify-content:space-between;
+   
+}
+.apresentacao__link a{
+    color: #464646;
+}
+.apresentacao__corpo{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.apresentacao__foto{
+    width: 268px;
+    height: 268px;
+    border-radius: 50%;
+    background-color: black;
+}
+.apresentacao__descricao  p {
+    font-weight: 400;
+    font-size: 22px;
+    margin: 24px 0px;
+    
+}
+.section__sobre{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 64px 0px 64px 0px;
+  
+    
+}
+.apresentacao__sobre{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+
+}
+.apresentacao__sobre__texto p{
+    width: 50vw;
+    font-size: 16px;
+    margin: 16px 0px 16px 0px;
+    font-weight: 400;
+}
+.apresentacao__sobre__titulo{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+@media only screen and (max-width: 375px){
+    .apresentacao{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .apresentacao__corpo {
+        width: 90vw;
+    }
+    .apresentacao__link li{
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0px 3px;
+        
+    }
+    .apresentacao__link img{
+        margin: 0px;
+        width: 14px;
+        height: 14px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .section__apresentacao{
+        width: 90vw;
+    }
+    
+    .apresentacao__titulo, p{
+        font-size: 22px;
+    }
+    .apresentacao__descricao p{
+        font-size: 16px;
+    }
+    .apresentacao__foto{
+        width: 146px;
+        height: 146px;
+    }
+    .apresentacao__corpo{
+        width: 90vw;
+    }
+    .section__sobre{
+        width: 90vw;
+    }
+    .apresentacao__sobre{
+        width: 90vw;
+    }
+    .apresentacao__sobre__titulo{
+        font-size: 22px;
+    }
+    .apresentacao__sobre__texto p{
+        width: auto;
+    }
+
+}
