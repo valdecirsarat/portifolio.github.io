@@ -41,11 +41,7 @@ img{
     margin: 0px;
 }
 
-@media only screen and (max-width: 768px) {
-    .menu{
-        font-size: 14px;
-    }
-}
+
 
 
 
@@ -53,13 +49,35 @@ img{
    .menu{
        justify-content: space-between;
        width: 90vw;
+       font-size: 14px;
+    
    }
     ul, li{
         display:none;
+        font-weight: 700;
     }
 
     ul, li:last-child{
         display: block;
         font-size: 14px;
     }
+    img{
+        width: 15px;
+        height: 15px;
+    }
 }
+@media only screen and (min-width: 769px) and (max-width: 1100px) {
+    .menu{
+        justify-content: space-between;
+        width: 70vw;
+    }
+     ul, li{
+         display:none;
+         font-weight: 700;
+     }
+ 
+     ul, li:last-child{
+         display: block;
+         font-size: 14px;
+     }
+ }

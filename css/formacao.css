@@ -103,3 +103,15 @@
         height: 118px;
     }
 }
+@media only screen and (min-width: 769px) and (max-width:869px){
+    .cards__academico__logoinstituicao {
+        width: 170px;
+    }
+    .cards__academico__logoinstituicao img {
+        width: 120px;
+    }
+    .cards__academico__titulo{
+        font-size: 16px;
+    }
+}
+

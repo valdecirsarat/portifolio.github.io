@@ -146,3 +146,20 @@ body{
     }
 
 }
+@media only screen and (min-width: 769px) and (max-width: 1100px) {
+    .apresentacao__foto {
+        width: 190px;
+        height: 190px;
+    }
+    .apresentacao__titulo, p {
+        font-size: 40px;
+    }
+    img {
+        margin-right: 0px;
+        width: 15px;
+        height: 15px;
+    }
+    .apresentacao__sobre__texto p{
+        width: auto;
+    }
+}
