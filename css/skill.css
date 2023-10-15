@@ -15,11 +15,12 @@
     justify-content: space-between;
 }
 .cards{
+    border-radius: 10px;
     font-size: 16px;
     font-weight: 700;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
     padding: 16px;
     margin: 0px 16px 0px 16px;
     width: 176px;
@@ -34,7 +35,16 @@
     margin-right: 0px;
 }
 
+.cards_span{
+    margin-top: 5px;
+}
 
+
+
+.cards_img img{
+    width: 90px;
+    height: 90px;
+}
 @media only screen and (max-width: 768px)  {
     .section__skill{
         width: 90vw;
