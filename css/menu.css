@@ -14,18 +14,22 @@
     font-weight: bold;
 }
 
-ul, li{
+ul, a, li{
     float: left;
     font-size: 16px;
     font-weight: 400;
 }
-li {
-    margin-right: 15px;
+li, a{
+    margin-left: 15px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
 }
-
+a{
+    font-size: 16px;
+    color: #464646;
+    
+}
 
 .menu__navegacao{    
     display: flex;
@@ -33,13 +37,15 @@ li {
 }
 img{
     margin-right: 5px;
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
 }
-.menu__itens ul li:last-child{
+.menu__itens ul  a li :last-child{
     font-weight: 700;
     margin: 0px;
+    color: blue;
 }
+
 
 
 
@@ -52,12 +58,12 @@ img{
        font-size: 14px;
     
    }
-    ul, li{
+    ul, li, a{
         display:none;
         font-weight: 700;
     }
 
-    ul, li:last-child{
+    ul, li, a:last-child{
         display: block;
         font-size: 14px;
     }
@@ -71,13 +77,14 @@ img{
         justify-content: space-between;
         width: 70vw;
     }
-     ul, li{
+     ul, li, a{
          display:none;
          font-weight: 700;
      }
  
-     ul, li:last-child{
+     ul, li, a:last-child{
          display: block;
          font-size: 14px;
+         font-weight: 700;
      }
  }
