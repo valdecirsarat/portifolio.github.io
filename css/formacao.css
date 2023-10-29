@@ -75,7 +75,7 @@
         font-size: 14px;
     }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 499px){
     .formacao__cards {
         flex-wrap: wrap;
         justify-content: center;        
