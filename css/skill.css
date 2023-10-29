@@ -73,11 +73,11 @@
 @media only screen and (max-width: 375px){
     
     .skill_cards {    
-        justify-content: space-between;
+        justify-content: center;
     }
     .cards{
-        width: 120px;
-        margin: 0px 0px 16px 0px;
+        width: 30vw;
+        margin: 0px 0px 16px 16px;
         
     }
 }
